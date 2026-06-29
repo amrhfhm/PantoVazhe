@@ -1,0 +1,36 @@
+.container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.top {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  height: 50%;
+}
+
+.bottom {
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  height: 50%;
+}
+
+.logo {
+  position: relative;
+  z-index: 1;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+  to { transform: rotate(-5deg); }
+}

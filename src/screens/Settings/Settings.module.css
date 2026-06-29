@@ -1,0 +1,127 @@
+.screen {
+  min-height: 100dvh;
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  padding: var(--space-20) var(--space-24);
+  border-bottom: 1px solid var(--brand-200);
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-on-surface);
+  padding: var(--space-4);
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--text-headline-sm);
+  font-weight: 700;
+  margin: 0;
+}
+
+.sections {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-8) 0;
+}
+
+.section {
+  padding: var(--space-16) var(--space-24);
+  border-bottom: 1px solid var(--brand-100);
+}
+
+.sectionTitle {
+  font-size: var(--text-label);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin: 0 0 var(--space-12) 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-8) 0;
+  min-height: 44px;
+}
+
+.rowLabel {
+  font-size: var(--text-body-lg);
+  font-weight: 500;
+}
+
+.secondary {
+  font-size: var(--text-body-md);
+  color: #888;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font-size: var(--text-body-md);
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.toggle {
+  width: 52px;
+  height: 28px;
+  background: #ccc;
+  border-radius: var(--radius-full);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.2s;
+}
+
+.toggleOn {
+  background: var(--color-primary);
+}
+
+.toggleKnob {
+  position: absolute;
+  top: 3px;
+  inset-inline-end: 3px;
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  border-radius: var(--radius-full);
+  transition: transform 0.2s;
+}
+
+.toggle:not(.toggleOn) .toggleKnob {
+  transform: translateX(24px);
+}
+
+.devSection {
+  padding: var(--space-16) var(--space-24);
+  opacity: 0.5;
+}
+
+.devTitle {
+  font-size: var(--text-label);
+  font-weight: 500;
+  margin: 0 0 var(--space-8) 0;
+  color: #888;
+}
+
+.devHint {
+  font-size: var(--text-label);
+  color: #888;
+  margin: var(--space-4) 0 0 0;
+}

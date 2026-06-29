@@ -1,0 +1,55 @@
+export const baseCards = [
+  { id: 'b1', word: 'آینشتاین', description: 'دانشمند آلمانی که نظریه نسبیت را کشف کرد. او معروف‌ترین فیزیکدان قرن بیستم است.', category: 'اشخاص', points: 3, source: 'base' },
+  { id: 'b2', word: 'نلسون ماندلا', description: 'رهبر ضد آپارتاید آفریقای جنوبی. او سال‌ها در زندان بود و بعد رئیس‌جمهور شد.', category: 'اشخاص', points: 3, source: 'base' },
+  { id: 'b3', word: 'کلئوپاترا', description: 'آخرین ملکه مصر باستان. او برای زیبایی و هوشمندیش معروف بود.', category: 'اشخاص', points: 3, source: 'base' },
+  { id: 'b4', word: 'ناپلئون', description: 'امپراتور فرانسه که نیمی از اروپا را فتح کرد. در جنگ واترلو شکست خورد.', category: 'اشخاص', points: 3, source: 'base' },
+  { id: 'b5', word: 'لئوناردو داوینچی', description: 'نقاش، مخترع و دانشمند ایتالیایی. نقاشی مونالیزا را کشید.', category: 'اشخاص', points: 3, source: 'base' },
+
+  { id: 'b6', word: 'برج ایفل', description: 'سازه‌ای آهنی و بلند در پاریس فرانسه. نماد این کشور است.', category: 'مکان‌ها', points: 1, source: 'base' },
+  { id: 'b7', word: 'دیوار چین', description: 'بلندترین سازه دست‌ساز بشر که هزاران کیلومتر طول دارد. برای جلوگیری از حمله دشمنان ساخته شد.', category: 'مکان‌ها', points: 1, source: 'base' },
+  { id: 'b8', word: 'ماچو پیچو', description: 'شهر باستانی اینکا در کوه‌های پرو. در ارتفاع بسیار زیادی ساخته شده.', category: 'مکان‌ها', points: 3, source: 'base' },
+  { id: 'b9', word: 'کعبه', description: 'مقدس‌ترین مکان برای مسلمانان. در مکه عربستان قرار دارد.', category: 'مکان‌ها', points: 1, source: 'base' },
+  { id: 'b10', word: 'آمازون', description: 'بزرگترین جنگل بارانی دنیا در آمریکای جنوبی. رودخانه بزرگی هم هم‌نام آن وجود دارد.', category: 'مکان‌ها', points: 1, source: 'base' },
+
+  { id: 'b11', word: 'فیل', description: 'بزرگترین حیوان خشکی. گوش‌های بزرگ و خرطوم بلند دارد.', category: 'حیوانات', points: 1, source: 'base' },
+  { id: 'b12', word: 'پنگوئن', description: 'پرنده‌ای که پرواز نمی‌کند اما خیلی خوب شنا می‌کند. در قطب جنوب زندگی می‌کند.', category: 'حیوانات', points: 1, source: 'base' },
+  { id: 'b13', word: 'کانگورو', description: 'حیوانی که در استرالیا زندگی می‌کند و بچه‌هایش را در کیسه حمل می‌کند.', category: 'حیوانات', points: 1, source: 'base' },
+  { id: 'b14', word: 'اختاپوس', description: 'جانوری دریایی با هشت بازو. می‌تواند رنگ پوستش را تغییر دهد.', category: 'حیوانات', points: 1, source: 'base' },
+  { id: 'b15', word: 'گرگ', description: 'سگ وحشی که به صورت گله زندگی می‌کند. شب‌ها زوزه می‌کشد.', category: 'حیوانات', points: 1, source: 'base' },
+
+  { id: 'b16', word: 'تلسکوپ', description: 'وسیله‌ای برای دیدن اجرام آسمانی از فاصله دور. ستاره‌شناسان از آن استفاده می‌کنند.', category: 'اشیا', points: 1, source: 'base' },
+  { id: 'b17', word: 'قطب‌نما', description: 'وسیله‌ای که جهت شمال را نشان می‌دهد. در سفر و کوه‌نوردی کاربرد دارد.', category: 'اشیا', points: 1, source: 'base' },
+  { id: 'b18', word: 'آکاردئون', description: 'ساز موسیقی که با کشیدن و فشردن نواخته می‌شود. صدای بادی تولید می‌کند.', category: 'اشیا', points: 3, source: 'base' },
+  { id: 'b19', word: 'ترازو', description: 'وسیله‌ای برای اندازه‌گیری وزن. دو کفه دارد.', category: 'اشیا', points: 1, source: 'base' },
+  { id: 'b20', word: 'زیردریایی', description: 'کشتی که می‌تواند زیر آب برود. ارتش‌ها از آن استفاده می‌کنند.', category: 'اشیا', points: 1, source: 'base' },
+
+  { id: 'b21', word: 'دموکراسی', description: 'نوعی حکومت که مردم در آن رای می‌دهند. قدرت از مردم است.', category: 'مفاهیم', points: 3, source: 'base' },
+  { id: 'b22', word: 'فلسفه', description: 'علمی که به سوالات بنیادی درباره هستی، دانش و اخلاق می‌پردازد.', category: 'مفاهیم', points: 3, source: 'base' },
+  { id: 'b23', word: 'انقلاب', description: 'تغییر بنیادی در نظام سیاسی یا اجتماعی. معمولاً سریع و خشونت‌آمیز است.', category: 'مفاهیم', points: 3, source: 'base' },
+  { id: 'b24', word: 'جاذبه', description: 'نیرویی که اجسام را به سمت هم جذب می‌کند. باعث می‌شود چیزها روی زمین بمانند.', category: 'مفاهیم', points: 1, source: 'base' },
+  { id: 'b25', word: 'تکامل', description: 'فرآیند تغییر تدریجی موجودات زنده در طول زمان. داروین آن را کشف کرد.', category: 'مفاهیم', points: 3, source: 'base' },
+
+  { id: 'b26', word: 'شطرنج', description: 'بازی فکری با ۶۴ خانه سیاه و سفید. دو نفر بازی می‌کنند و هدف کیش‌مات است.', category: 'سرگرمی', points: 1, source: 'base' },
+  { id: 'b27', word: 'تئاتر', description: 'هنر نمایش زنده روی صحنه. بازیگران داستان را اجرا می‌کنند.', category: 'سرگرمی', points: 1, source: 'base' },
+  { id: 'b28', word: 'سیرک', description: 'نمایشی با بازیگران عجیب. آکروبات‌ها، شعبده‌بازها و حیوانات دارد.', category: 'سرگرمی', points: 1, source: 'base' },
+  { id: 'b29', word: 'باله', description: 'رقصی کلاسیک که با موسیقی ارکستر اجرا می‌شود. رقصندگان روی نوک انگشتان می‌ایستند.', category: 'سرگرمی', points: 1, source: 'base' },
+  { id: 'b30', word: 'اپرا', description: 'نوعی تئاتر موزیکال که تمام دیالوگ‌ها آواز است. معمولاً به زبان ایتالیایی.', category: 'سرگرمی', points: 3, source: 'base' },
+
+  { id: 'b31', word: 'سوشی', description: 'غذای ژاپنی از برنج، ماهی خام و جلبک دریایی. با سس سویا خورده می‌شود.', category: 'غذا', points: 1, source: 'base' },
+  { id: 'b32', word: 'پیتزا', description: 'غذای ایتالیایی با خمیر گرد. روی آن گوجه، پنیر و مواد مختلف می‌ریزند.', category: 'غذا', points: 1, source: 'base' },
+  { id: 'b33', word: 'ماکارونی', description: 'نوعی پاستا ایتالیایی. با سس‌های مختلف پخته می‌شود.', category: 'غذا', points: 1, source: 'base' },
+  { id: 'b34', word: 'کباب', description: 'گوشت کبابی که روی آتش یا ذغال پخته می‌شود. در ایران خیلی محبوب است.', category: 'غذا', points: 1, source: 'base' },
+  { id: 'b35', word: 'ترامیسو', description: 'دسر ایتالیایی که با قهوه و بیسکویت و خامه درست می‌شود.', category: 'غذا', points: 3, source: 'base' },
+
+  { id: 'b36', word: 'کهکشان', description: 'مجموعه‌ای از میلیاردها ستاره. زمین در کهکشان راه شیری است.', category: 'مفاهیم', points: 1, source: 'base' },
+  { id: 'b37', word: 'رنگین‌کمان', description: 'کمانی رنگارنگ در آسمان بعد از باران. هفت رنگ دارد.', category: 'مفاهیم', points: 1, source: 'base' },
+  { id: 'b38', word: 'موج‌سواری', description: 'ورزشی روی آب که با تخته انجام می‌شود. سوار موج‌های اقیانوس می‌شوند.', category: 'سرگرمی', points: 1, source: 'base' },
+  { id: 'b39', word: 'اهرام مصر', description: 'بناهای عظیم مثلثی که فراعنه مصر باستان ساختند. از عجایب هفت‌گانه جهان است.', category: 'مکان‌ها', points: 1, source: 'base' },
+  { id: 'b40', word: 'ماهی قرمز', description: 'ماهی کوچک نارنجی که در تنگ نگه می‌دارند. نماد سال نو ایرانی است.', category: 'حیوانات', points: 1, source: 'base' },
+
+  { id: 'b41', word: 'شکوفه', description: 'گل درختان در فصل بهار. درختان هلو و گیلاس خیلی زیبا شکوفه می‌زنند.', category: 'مفاهیم', points: 1, source: 'base' },
+  { id: 'b42', word: 'آتشفشان', description: 'کوهی که از درون زمین مواد مذاب بیرون می‌ریزد. در اثر فوران خطرناک است.', category: 'مکان‌ها', points: 1, source: 'base' },
+  { id: 'b43', word: 'اسکیمو', description: 'مردمی که در مناطق سردسیر قطب شمال زندگی می‌کنند. در خانه‌های یخی می‌نشینند.', category: 'اشخاص', points: 1, source: 'base' },
+  { id: 'b44', word: 'طاووس', description: 'پرنده‌ای زیبا با دم رنگارنگ و بلند. نماد زیبایی است.', category: 'حیوانات', points: 1, source: 'base' },
+  { id: 'b45', word: 'کیک تولد', description: 'شیرینی گرد با شمع که در جشن تولد روشن می‌کنند و فوت می‌کنند.', category: 'غذا', points: 1, source: 'base' },
+];

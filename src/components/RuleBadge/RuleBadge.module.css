@@ -1,0 +1,13 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-12);
+  border-radius: var(--radius-full);
+  font-size: var(--text-label);
+  font-weight: 700;
+}
+
+.round1 { background: #DCFCE7; color: #15803D; }
+.round2 { background: #FEF9C3; color: #854D0E; }
+.round3 { background: #FEE2E2; color: #991B1B; }

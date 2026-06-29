@@ -1,0 +1,15 @@
+.screen {
+  min-height: 100dvh;
+  cursor: pointer;
+}
+
+.teamName {
+  position: absolute;
+  bottom: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: var(--text-headline-md);
+  font-weight: 900;
+  color: #fff;
+  z-index: 2;
+}

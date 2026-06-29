@@ -1,0 +1,232 @@
+.screen {
+  background: var(--color-surface);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding-block-end: 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+  padding: var(--space-16);
+  border-bottom: 1px solid var(--color-outline);
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-on-surface);
+  padding: var(--space-4);
+}
+
+.headerTitle {
+  font-size: var(--text-headline-sm);
+  font-weight: 700;
+}
+
+.content {
+  padding: var(--space-16);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+  overflow-y: auto;
+  flex: 1;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.sectionTitle {
+  font-size: var(--text-headline-sm);
+  font-weight: 700;
+  color: var(--color-on-surface);
+}
+
+.teamCard {
+  background: var(--color-secondary-surface);
+  border-radius: var(--radius-md);
+  padding: var(--space-16);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.teamHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teamLabel {
+  font-size: var(--text-body-md);
+  font-weight: 600;
+  color: var(--color-on-surface);
+}
+
+.removeBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-error);
+  padding: var(--space-4);
+}
+
+.input {
+  width: 100%;
+  padding: var(--space-12);
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-outline);
+  background: #fff;
+  font-size: var(--text-body-lg);
+  color: #1a1a1a;
+  text-align: right;
+  font-family: inherit;
+}
+
+.input:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
+
+.settingRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-12) var(--space-16);
+  background: var(--color-secondary-surface);
+  border-radius: var(--radius-sm);
+}
+
+.settingLabel {
+  font-size: var(--text-body-md);
+  color: var(--color-on-surface);
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.stepperBtn {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.stepperValue {
+  font-size: var(--text-body-lg);
+  font-weight: 700;
+  min-width: 40px;
+  text-align: center;
+}
+
+.toggle {
+  width: 48px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  position: relative;
+}
+
+.toggleOn {
+  background: var(--color-primary);
+}
+
+.toggleOff {
+  background: #ccc;
+}
+
+.toggleKnob {
+  position: absolute;
+  top: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  transition: inset-inline-start 0.2s, left 0.2s;
+}
+
+.toggleKnobOn {
+  inset-inline-start: auto;
+  left: calc(100% - 25px);
+}
+
+.toggleKnobOff {
+  inset-inline-start: 3px;
+  left: 3px;
+}
+
+.deckOptions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.deckOption {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+  padding: var(--space-12) var(--space-16);
+  background: var(--color-secondary-surface);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.deckOptionActive {
+  background: var(--brand-200);
+  border: 1.5px solid var(--color-primary);
+}
+
+.deckOptionLabel {
+  font-size: var(--text-body-md);
+  font-weight: 600;
+}
+
+.radio {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--color-outline);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radioActive {
+  border-color: var(--color-primary);
+}
+
+.radioDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-primary);
+}
+
+.fixedBottom {
+  position: fixed;
+  inset-block-end: 0;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  padding: var(--space-16);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-outline);
+}

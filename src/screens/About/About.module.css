@@ -1,0 +1,100 @@
+.screen {
+  min-height: 100dvh;
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  padding: var(--space-20) var(--space-24);
+  border-bottom: 1px solid var(--brand-200);
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-on-surface);
+  padding: var(--space-4);
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--text-headline-sm);
+  font-weight: 700;
+  margin: 0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-48) var(--space-24);
+  gap: var(--space-16);
+  text-align: center;
+}
+
+.logo {
+  margin-block-end: var(--space-8);
+}
+
+.appName {
+  font-size: var(--text-headline-lg);
+  font-weight: 900;
+  margin: 0;
+  color: var(--color-primary);
+}
+
+.version {
+  font-size: var(--text-body-md);
+  color: #888;
+  margin: 0;
+}
+
+.desc {
+  font-size: var(--text-body-lg);
+  line-height: 1.7;
+  max-width: 320px;
+  margin: var(--space-8) 0;
+}
+
+.credits {
+  margin-block-start: var(--space-24);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.creditsLabel {
+  font-size: var(--text-label);
+  color: #888;
+  margin: 0;
+}
+
+.creditsName {
+  font-size: var(--text-body-lg);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  gap: var(--space-24);
+  margin-block-start: var(--space-16);
+}
+
+.iconLink {
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
