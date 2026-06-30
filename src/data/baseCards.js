@@ -1,5 +1,5 @@
 export const baseCards = [
-  { id: 'b1', word: 'آینشتاین', description: 'دانشمند آلمانی که نظریه نسبیت را کشف کرد. او معروف‌ترین فیزیکدان قرن بیستم است.', category: 'اشخاص', points: 3, source: 'base' },
+  { id: 'b1', word: 'آینشتین', description: 'دانشمند آلمانی که نظریه نسبیت را کشف کرد. او معروف‌ترین فیزیکدان قرن بیستم است.', category: 'اشخاص', points: 3, source: 'base' },
   { id: 'b2', word: 'نلسون ماندلا', description: 'رهبر ضد آپارتاید آفریقای جنوبی. او سال‌ها در زندان بود و بعد رئیس‌جمهور شد.', category: 'اشخاص', points: 3, source: 'base' },
   { id: 'b3', word: 'کلئوپاترا', description: 'آخرین ملکه مصر باستان. او برای زیبایی و هوشمندیش معروف بود.', category: 'اشخاص', points: 3, source: 'base' },
   { id: 'b4', word: 'ناپلئون', description: 'امپراتور فرانسه که نیمی از اروپا را فتح کرد. در جنگ واترلو شکست خورد.', category: 'اشخاص', points: 3, source: 'base' },
